@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# folders
+/dist
+
 # Compiled Object files
 *.slo
 *.lo
@@ -12,9 +15,9 @@
 *.pch
 
 # Compiled Dynamic libraries
-#*.so
-#*.dylib
-#*.dll
+*.so
+*.dylib
+*.dll
 
 # Fortran module files
 *.mod
