@@ -4,6 +4,7 @@
 # folders
 /dist
 /log
+/build
 
 # Compiled Object files
 *.slo
@@ -38,4 +39,5 @@
 #MacOS garbage
 *._DS_Store
 ._DS_Store
+.DS_Store
 .DS_Store
