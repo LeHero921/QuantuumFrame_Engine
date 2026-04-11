@@ -1,7 +1,7 @@
 #pragma once
 #include "raylib.h"
 
-struct Camera {
+struct qCamera {
     Vector3 cameraPosition;
     Vector3 cameraTarget;
 };
