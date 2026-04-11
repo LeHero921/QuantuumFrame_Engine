@@ -3,7 +3,7 @@
 bool glContext;
 
 bool Base::IsValidTexture(const Texture2D& texture) {
-    return texture.id != 0; // 0 = ungültige Texture in raylib
+    return texture.id != 0; // 0 = invalid texture in raylib
 };
 
 bool Base::IsValidRect(const Rectangle& rect) {

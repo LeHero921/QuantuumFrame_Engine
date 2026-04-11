@@ -1,4 +1,4 @@
-// QuantuumFrame.h
+// libQuantuum.h
 #pragma once
 
 // Core
@@ -6,6 +6,7 @@
 #include "input.h"
 #include "debug.h"
 #include "resourceLoader.h"
+#include "raylibWrapper.h"
 
 // Game Objects
 #include "entity.h"
