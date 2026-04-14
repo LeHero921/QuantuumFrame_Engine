@@ -1,19 +1,7 @@
 #pragma once
-#include <raylib.h>
 #include <iostream>
-
-typedef struct Sprite
-{
-    Texture2D texture;
-    Rectangle dest_rect;
-    Rectangle source_rect;
-} Sprite;
-
-typedef struct RenderStructure
-{
-    Sprite sprite; // texture & dest_rect & source_rect
-    Color tint;
-} RenderStructure;
+#include "raylib.h"
+#include "libQuantuum.h"
 
 typedef struct qTransform
 {
@@ -21,7 +9,7 @@ typedef struct qTransform
     float rotation;
 } qTransform;
 
-class Base {
+class Core {
 public:
     bool IsValidTexture(const Texture2D& texture);
     bool IsValidRect(const Rectangle& rect);

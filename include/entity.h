@@ -1,6 +1,5 @@
 #pragma once
-#include "base.h"
-#include "physics.h"
+#include "libQuantuum.h"
 
 struct entityData
 {

@@ -1,7 +1,5 @@
 #pragma once
-#include "base.h"
-#include "entity.h"
-#include "animation.h"
+#include "libQuantuum.h"
 
 class DrawHandler {
 public:

@@ -1,4 +1,4 @@
-#include "base.h"
+#include "core.h"
 #include "entity.h"
 #include "resourceLoader.h"
 #include "debug.h"

@@ -1,5 +1,5 @@
 #pragma once
-#include "base.h"
+#include "core.h"
 #include <iostream>
 
 class ResourceLoader
